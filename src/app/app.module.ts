@@ -15,8 +15,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 const appRoutes: Routes = [
   { path: 'create', component: ArticleCreationComponent },
   { path: 'articles', component: ArticlesComponent },
-  { path: '', component: ArticlesComponent },
-  { path: 'articles/' + indexedDB, component: ArticlesComponent}
+  { path: '', component: ArticlesComponent }
 ];
 const material = [MatToolbarModule];
 

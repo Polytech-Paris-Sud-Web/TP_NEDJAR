@@ -1,6 +1,12 @@
 {
   "articles": [
     {
+      "title": "First Article",
+      "content": "this is a content",
+      "author": "LYN",
+      "id": 1
+    },
+    {
       "id": 2,
       "title": "second Article",
       "content": "this is the second content",
@@ -13,16 +19,10 @@
       "author": "LYN"
     },
     {
-      "title": "This is a  Title",
+      "title": "Fourth Article",
       "content": "This is a content",
       "author": "LNY",
       "id": 4
-    },
-    {
-      "title": "this",
-      "content": "is",
-      "author": "an article",
-      "id": 5
     }
   ]
 }
