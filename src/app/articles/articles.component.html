@@ -1,0 +1,7 @@
+<app-article *ngFor="let article of this.articles " [article]="article"
+             (deletedArticle)="deleteArticle($event)">
+</app-article>
+<div>
+  <p> → Click on
+    <a routerLink="/create" > New Article</a> in order to add a new article of your own</p>
+</div>
